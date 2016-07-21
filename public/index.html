@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Url Shortener</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Image Search</h1>
+                <h3>FreeCodeCamp.com</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    
+           
+              
+              
+    <div class="container text-center">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+            
+            <!--<img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">-->
+            <h2 class="featurette-heading"> Image Abstraction Layer
+                <span class="text-muted">Microservice Project</span>
+            </h2>
+            <p>Welcome to my awesome image abstraction layer API.</p>
+            <blockquote>
+                <h3>How it works:</h3>
+                <p>I can pass a URL as a search parameter and I will receive a list of results in a JSON response.</p>
+                <p>When I visit one of the result URLs, it will show the image.</p>
+            </blockquote>
+            <h2>Example usage:</h2>
+            <p>https://image-abstracter.herokuapp.com/api/imagesearch/happy cats?offset=0</p>
+            <p>https://image-abstracter.herokuapp.com/api/latest/imagesearch</p>
+            <br>
+            <h2>Example output:</h2>
+            <p>Using the first path will result in 10 different search results in JSON format containing the title, image url, and page url.</p>
+            <p>Using the second path will result in a history of prior search terms.</p>
+            <br>
+            <h2>Usage:</h2>
+            <p>https://image-abstracter.herokuapp.com/api/imagesearch/happy cats?offset=0</p>
+            <br>
+            <h2>Will result in:</h2>
+            <p>[{"url":"http://www.petsfoto.com/wp-content/uploads/2010/08/Funny-Cat7.jpg","title":"Happy Cat","context":"http://www.petsfoto.com/happy-cat/"},{"url":"http://img.chan4chan.com/img/2009-04-25/1240639425926.jpg","title":"happy 108 cat 882 happy cat furore23 blee 1277301339391 bun","context":"http://chan4chan.com/tags/happy_cat"},{"url":"http://www.photosdaily.com/wp-content/uploads/2012/12/Happy-Cat.jpg","title":"Tags cat wallpaper cute cat pictures free pet images Photis Daily ...","context":"http://www.photosdaily.com/photo-of-the-day-happy-cat/"},{"url":"http://consciouscat.net/wp-content/uploads/2011/09/happy-cat.jpg","title":"Happy Cat Month 2011","context":"http://consciouscat.net/2011/09/06/september-is-happy-cat-month/"},{"url":"https://lh5.googleusercontent.com/-2DMUh33PTKY/UWcsY8XWbvI/AAAAAAAAABQ/Es06z5oasb8/s1000-fcrop64%3D1,2fad2816eed0b7d6/HappyCat.jpeg","title":"Happy Cats - Google+","context":"https://plus.google.com/102267088865630915560"},{"url":"http://pawmettolifeline.org/blog/wp-content/uploads/2014/03/happy-cat.jpg","title":"Happy Cats Combination prevention","context":"http://galleryhip.com/happy-cats.html"},{"url":"http://www.todayifoundout.com/wp-content/uploads/2013/05/happy-cat.jpg","title":"as any cat owner or even someone who s seen a cat knows cats often ...","context":"http://www.todayifoundout.com/index.php/2013/05/why-and-how-a-cat-purrs/"},{"url":"http://www.pet360.com/Content/Images/Cms/Articles/Happy_Cat_Smiling.jpg","title":"Say Cheese: Happy Cats Smiling for the Camera - Pet360 Pet Parenting ...","context":"http://www.pet360.com/cat/lifestyle/say-cheese-happy-cats-smiling-for-the-camera/O__HHoiJcUWuq759DWSn2Q"},{"url":"https://rememberingletters.files.wordpress.com/2012/10/netherlands-happy-cat.jpg","title":"Happy Cat | Remembering Letters and Postcards","context":"https://rememberingletters.wordpress.com/2012/10/12/happy-cat-2/"},{"url":"https://pbs.twimg.com/profile_images/2167035896/123cat.jpg","title":"happy cat (@l_o_o_k) | Twitter","context":"https://twitter.com/l_o_o_k"}]</p>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Jesse989 2016</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/bootstrap.min.js"></script>
+
+</body>
+
+</html>

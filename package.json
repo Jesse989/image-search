@@ -1,0 +1,25 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "FCC Backend Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesse989/image-search.git"
+  },
+  "author": "Jesse989",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesse989/image-search/issues"
+  },
+  "homepage": "https://github.com/Jesse989/image-search#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.5.5",
+    "node-bing-api": "^2.4.1"
+  }
+}
